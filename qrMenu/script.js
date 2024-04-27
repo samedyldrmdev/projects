@@ -88,7 +88,7 @@ getData().then(data => {
     const gorsel = document.createElement('div');
     gorsel.classList.add('gorsel');
     const img = document.createElement('img');
-    img.src = `/front-end-projects/qrMenu/images/menu/${columns[1]}-min.webp`
+    img.src = `/projects/qrMenu/images/menu/${columns[1]}-min.webp`
     img.width = img.width / 10;
     img.height = img.height / 10;
     img.loading = 'lazy'
